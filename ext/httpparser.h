@@ -2,7 +2,7 @@
 #define PHP_HTTP_PARSER_H
 
 #define PHP_HTTP_PARSER_EXTNAME  "httpparser"
-#define PHP_HTTP_PARSER_EXTVER   "0.1"
+#define PHP_HTTP_PARSER_EXTVER   "1.0.0"
 
 #include "php.h"
 
