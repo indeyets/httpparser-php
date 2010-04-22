@@ -1,0 +1,6 @@
+ARG_WITH("httpparser", "HTTP Parser extension", "no");
+
+if (PHP_HTTPPARSER != "no") {
+	EXTENSION("httpparser", "httpparser.c http11_parser.c");
+	AC_DEFINE("HAVE_HTTPPARSER", 1);
+}
